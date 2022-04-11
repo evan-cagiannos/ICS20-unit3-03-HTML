@@ -24,16 +24,16 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Volume of Pyramid with JS</span>
+        <span class="mdl-layout-title">Volume of Sphere</span>
       </div>
     </header>
     <main class="mdl-layout__content">
-      <img src="./images/pyramid.png" alt="style">
+      <img src="./img/sphere.png" alt="style">
       <!-- Numeric Textfield with Floating Label -->
       <form action="#">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
           <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="radius-of-sphere">
-          <label class="mdl-textfield__label" for="radius- of-sphere">radius</label>
+          <label class="mdl-textfield__label" for="radius-of-sphere">radius</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
       </form>
@@ -42,7 +42,8 @@
         onclick="doMathClicked()">
         Calculate
       </button>
-    </main>
-  </div>
- </body>
+      <div id="volume"></div>
+      </main>
+    </div>
+  </body>
 </html>
